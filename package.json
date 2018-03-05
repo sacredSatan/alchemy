@@ -5,6 +5,7 @@
   "main": "app/electron.js",
   "scripts": {
     "start": "electron -r babel-register .",
+    "postinstall": "electron-builder install-app-deps",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,10 +20,13 @@
   "license": "MIT",
   "dependencies": {
     "electron": "^1.8.2",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "sequelize": "^4.35.2",
+    "sqlite3": "^3.1.13"
   },
   "devDependencies": {
     "babel-preset-env": "^1.6.1",
-    "babel-register": "^6.26.0"
+    "babel-register": "^6.26.0",
+    "electron-builder": "^20.2.1"
   }
 }
