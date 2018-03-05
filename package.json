@@ -1,0 +1,28 @@
+{
+  "name": "alchemy",
+  "version": "1.0.0",
+  "description": "A sample project for a series on using Express, React & Redux in Electron",
+  "main": "app/electron.js",
+  "scripts": {
+    "start": "electron -r babel-register .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Electron",
+    "Express",
+    "React",
+    "Redux",
+    "SQLite",
+    "Sequelize"
+  ],
+  "author": "sacredSatan",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.8.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0"
+  }
+}
